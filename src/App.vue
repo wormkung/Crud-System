@@ -1,7 +1,7 @@
 <template>
   <div>
   <nav>
-    <router-link to="/">หน้าแรก</router-link> |
+    <!-- <router-link to="/">หน้าแรก</router-link> | -->
     <router-link to="/dataviwe">แสดงข้อมูล</router-link>|
     <router-link to="/post">เพิ่มข้อมูล</router-link>
   </nav>

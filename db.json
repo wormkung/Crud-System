@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Mark",
       "title": "Go to the gym",
-      "age": 2
+      "age": 20
     },
     {
       "id": 2,
@@ -17,12 +17,6 @@
       "title": "Go to the gym",
       "id": 3,
       "age": 35
-    },
-    {
-      "name": "alen",
-      "title": "Wow",
-      "age": 24,
-      "id": 4
     }
   ]
 }

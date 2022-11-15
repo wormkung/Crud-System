@@ -28,7 +28,7 @@
             placeholder="กรอกอายุ"
           />
         </div>
-        <button class="btn btn-success">Success</button>
+        <button class="btn btn-success">ยืนยันแก้ใข</button>
       </div>
     </div>
   </form>

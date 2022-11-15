@@ -14,7 +14,7 @@
           </thead>
           <tbody>
             <tr v-for="todo in todos" :key="todo.id">
-              <td>{{ todo.id + 1 }}</td>
+              <td>{{ todo.id  }}</td>
               <td>{{ todo.name }}</td>
               <td>{{ todo.title }}</td>
               <td>{{ todo.age }}</td>
@@ -56,6 +56,7 @@ export default {
       let check = this.todos.findIndex((c) => c.id === id)
       axios.delete(`http://localhost:3001/todos/${id}`)
       .then(() => { this.todos.splice(check, 1)
+        
     })
 
   }  
